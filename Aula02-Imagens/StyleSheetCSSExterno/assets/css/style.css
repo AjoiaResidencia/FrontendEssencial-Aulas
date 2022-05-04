@@ -1,0 +1,25 @@
+/*Comentario*/
+body{
+    text-align: center; 
+    background-image: url(../image/pets.jpg);     
+}
+h1{
+    color:#0d82ff;
+    text-align: center;
+    background-color: #3333;   
+}
+p{
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    text-indent: 30px;
+    line-height: 50px;
+    word-spacing: 5px;
+}
+img{
+    width: 150px;
+    height: auto;    
+}
+div{
+    background-color: rgba(255, 255, 255, 0.75);      
+}
