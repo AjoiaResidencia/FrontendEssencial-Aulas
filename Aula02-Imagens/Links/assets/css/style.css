@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+}
+
+img{
+    width: 30%;
+}
+
+a{
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    font-size: 25px;    
+}
+
+a:visited{
+    color: #40ff00;
+}
+
+a:link{
+    color: #ff00d9;
+}
+
+a:hover{
+    color: #00ffff;
+}
+
+a:active{
+    color: #ffbf00;
+}
+
+
