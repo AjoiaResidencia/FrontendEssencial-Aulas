@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<style>
+    body{
+        text-align: center;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 50%;
+        margin: auto;
+        border: 1px solid #333;
+        border-radius: 5px;
+        padding: 0.5em;
+    }
+</style>
+<body>
+    <h1>Formulario</h1>
+    <form action="#" method="POST" id="formCadastro">
+        <label for="input-name">Nome</label>
+        <input type="text" name="nome" id="input-name" required/>
+        <label for="input-date">Data de nascimento</label>
+        <input type="date" name="date" id="input-date" required/>
+        <input type="file">
+        <textarea name="mensagem" rows="10" cols="10">          
+        </textarea>
+        <label for="cores">Selecione uma cor</label>        
+        <input type="submit" value="Enviar"/>
+    </form>
+
+    <select name="cores" id="cores" form="formCadastro">
+        <option value="Azul">Azul</option>
+        <option value="Vermelho">Vermelho</option>
+        <option value="Branco" selected>Branco</option>
+    </select>
+</body>
+</html>
