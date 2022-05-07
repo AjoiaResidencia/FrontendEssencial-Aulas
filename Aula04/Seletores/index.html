@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+</head>
+<style>
+    .contianer > p{
+        color: #72e740;
+    }
+    .texto::first-line{
+        color: #1d62bd;
+    }
+
+    .texto::first-letter{
+        color: #ff00f7;
+    }
+
+    .texto{
+        font-size: 2rem;
+    }
+
+    input[name~="nome"]{
+        font-size: 2rem;
+    }
+
+    p[class*="texto"]{
+        color: #00ffe1;
+    }
+
+</style>
+<body>
+    <div class="contianer">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quia magni ab, similique voluptatem voluptatum et cumque unde culpa, nesciunt quibusdam quasi ut eos, neque debitis. Quod harum ut mollitia.</p>
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam ratione quidem sint quae odio nobis possimus veritatis expedita quia quis.</p>
+        </div>
+    </div>       
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam sunt magni necessitatibus accusantium mollitia quae accusamus enim facilis blanditiis tempore.</p>
+    <div>
+
+    </div>
+    <p class="texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae mollitia a quo repellat reprehenderit fuga nesciunt, doloremque officia? Similique, fuga maxime optio neque deserunt est aliquam ex fugit! Quia, ipsum.</p>
+
+    <input type="text" name="primeiro nome">
+    <input type="text" name="segundo nome">
+
+    <p class="primeirotexto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique natus cupiditate quaerat officia itaque magnam unde, in saepe ex omnis!</p>
+
+    <p class="segundotexto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique natus cupiditate quaerat officia itaque magnam unde, in saepe ex omnis!</p>
+</body>
+</html>

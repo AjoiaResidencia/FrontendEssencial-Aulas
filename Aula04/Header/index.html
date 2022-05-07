@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container-header {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 5rem;
+            margin: auto;
+            background-color: #333;
+        }
+        .left-side{
+            display: flex;
+            align-items: center;
+            justify-content: center;            
+            width: 10%;
+        }
+        .right-side{
+            display: flex;
+            align-items:center;            
+            width: 20%;
+        }
+        ul{
+            list-style-type: none;
+            color: #fff;
+        }
+        li{
+            display: inline;
+            padding: 0.5em;
+        }
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: #9c9c9c;
+            padding: 0.5rem;
+            width: 10rem;
+            border-radius: 5px;
+            text-align: center;
+            left: 5rem;
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-header">
+        <div class="left-side">
+            <div class="dropdown">
+                <img src="./menu-icon.png" alt="icon">
+                <div class="dropdown-content">
+                    <p>Opção 01</p>
+                    <p>Opção 02</p>
+                    <p>Opção 03</p>
+                    <p>Opção 04</p>
+                </div>
+            </div>
+        </div>
+        <div class="right-side">
+            <ul>
+                <li>Home</li>
+                <li>Sobre</li>
+                <li>Sair</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
