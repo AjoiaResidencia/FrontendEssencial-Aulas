@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Extra</title>
+    <style>
+        body{
+            font-family: Verdana, sans-serif;
+        }
+        table, tr, th, td{
+            border: 1px solid #333;
+            border-collapse: collapse;
+        }        
+        th, td{
+            padding: 0.5rem;
+        }
+        th{
+            background-color: #32b1ff;
+        }
+        table{
+            margin: auto;            
+        }
+        img{
+            width: 62px;
+            border-radius: 50%;
+        }
+        .btn-delete, .btn-edit{
+            width:7rem;
+            padding: 0.5rem;
+            border-radius: 5px;
+            transition: 0.4s;
+        }
+        .btn-edit{          
+            background-color: #ffcc00;
+        }
+        .btn-delete{            
+            background-color: #ff0000;
+            color: #fff;
+        }
+        .btn-delete:hover, .btn-edit:hover{
+            filter:brightness(0.8);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Minha Table</caption>
+        <tr>
+            <th>Avatar</th>
+            <th>Nome</th>
+            <th>CPF</th>
+            <th>Data de Nascimento</th>
+            <th>Email</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>
+                <img src="./assets/avatar-img/image01.jpg" alt="avatar">
+            </td>
+            <td>Renato Iago Cauã Castro</td>
+            <td>568.816.842-07</td>
+            <td>07/04/1953</td>
+            <td>renatoiagocastro@edbrasil.net</td>
+            <td>
+                <button class="btn-edit">Editar</button>
+            </td>
+            <td>
+                <button class="btn-delete">Excluir</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="./assets/avatar-img/image02.jpg" alt="avatar">
+            </td>
+            <td>Anderson Henry Fernandes</td>
+            <td>452.168.754-76</td>
+            <td>14/04/1987</td>
+            <td>
+                <a href="mailto:anderson_henry_fernandes@onset.com.br">anderson_henry_fernandes@onset.com.br</a>
+            </td>
+            <td>
+                <button class="btn-edit">Editar</button>
+            </td>
+            <td>
+                <button class="btn-delete">Excluir</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="./assets/avatar-img/image03.jpg" alt="avatar">
+            </td>
+            <td>Renato Iago Cauã Castro</td>
+            <td>568.816.842-07</td>
+            <td>07/04/1953</td>
+            <td>renatoiagocastro@edbrasil.net</td>
+            <td>
+                <button class="btn-edit">Editar</button>
+            </td>
+            <td>
+                <button class="btn-delete">Excluir</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="./assets/avatar-img/image04.jpg" alt="avatar">
+            </td>
+            <td>Renato Iago Cauã Castro</td>
+            <td>568.816.842-07</td>
+            <td>07/04/1953</td>
+            <td>renatoiagocastro@edbrasil.net</td>
+            <td>
+                <button class="btn-edit">Editar</button>
+            </td>
+            <td>
+                <button class="btn-delete">Excluir</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="./assets/avatar-img/image05.jpg" alt="avatar">
+            </td>
+            <td>Renato Iago Cauã Castro</td>
+            <td>568.816.842-07</td>
+            <td>07/04/1953</td>
+            <td>renatoiagocastro@edbrasil.net</td>
+            <td>
+                <button class="btn-edit">Editar</button>
+            </td>
+            <td>
+                <button class="btn-delete">Excluir</button>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="3"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>           
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>            
+            <td></td>
+            <td></td>
+            <td></td>
+            <td colspan="3"></td>            
+        </tr>
+    </table>
+</body>
+</html>
