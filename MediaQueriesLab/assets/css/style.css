@@ -1,0 +1,39 @@
+/* Header */
+.container-header{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
+    width: 100%;
+    color: #fff;
+    height: 5rem;
+    background-color: #333;
+}
+
+.container-header ul{
+    list-style-type: none;    
+}
+
+.container-header ul li{
+    display: inline;
+    padding: 1rem;
+}
+
+/* Content */
+.container{
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    width: 80%;
+    height: 10rem;        
+}
+
+.container .left-side,
+.container .right-side{
+    width: 50%;
+    height: inherit;   
+}
+
+.container p{
+    padding: 1rem;
+}
