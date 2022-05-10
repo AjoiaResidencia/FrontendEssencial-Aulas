@@ -1,0 +1,9 @@
+.container-flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.card{
+    margin:auto;
+}

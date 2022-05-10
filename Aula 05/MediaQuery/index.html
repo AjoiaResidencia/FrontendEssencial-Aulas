@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        body{
+            background-color: #333;
+        }
+        
+        h1{
+            color: #fff;
+        }
+
+        @media screen and (max-width:600px),
+            screen and (orientation: landscape){
+                
+            body{
+                background-color: #15ff00;
+            }
+
+            h1{
+                text-align: center;
+                color: #333;                
+            }
+        }
+
+        @media screen and (min-width:800px) {
+            body{
+                background-color: #0077ff;                
+            }
+
+            h1{
+                text-align: right;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.container-esquerdo,
+.container-direito{
+    width: 50%;
+    padding: 0.5rem;
+    height: 10rem;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.container-direito{
+    background-color: #f62a2a;
+}
+
+.container-esquerdo{
+    background-color: #234bff;
+}
+
+.container{
+    text-align: left;
+}
+
+@media screen and (max-width:650px){
+    .container{
+        flex-direction: column;
+    }
+
+    .container-esquerdo,
+    .container-direito{
+        width: 100%;
+    }
+}
+
