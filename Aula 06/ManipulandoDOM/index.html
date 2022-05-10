@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        div{
+            width: 30%;
+            height: 5rem;
+            margin: auto;
+            background-color: #ff7373;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="titulo">Manipulando DOM</h1>
+    <button onclick="alterarTitulo();">Alterar o Titulo</button>
+    <input type="text" id="input-cor" placeholder="blue, red ou green">
+    <button onclick="alterarCor();">Alterar a Cor</button>
+    <div id="lista-area">
+
+    </div>
+    <input type="text" id="input-nome">
+    <button onclick="adicionarNaLista();">Adicionar</button>
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
